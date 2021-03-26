@@ -1,0 +1,26 @@
+{
+  "name": "bookswebsite",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "An online web application bookstore",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabyyanes/BooksWeb.git"
+  },
+  "author": "Gaby Yanes Perez, Brock Williams, Antonio Zayas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabyyanes/BooksWeb/issues"
+  },
+  "homepage": "https://github.com/gabyyanes/BooksWeb#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
