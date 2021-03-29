@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+
 import Product from "../components/Product";
 import LoadingBox from "../components/LoadingBox";
 import MessageBox from "../components/MessageBox";
@@ -9,13 +10,13 @@ export default function HomeScreen() {
   const dispatch = useDispatch();
   const productList = useSelector((state) => state.productList);
   const { loading, error, products } = productList;
+
   useEffect(() => {
     dispatch(listProducts());
   }, [dispatch]);
-
   return (
     <div>
-      <img className="homeimage" src="./images/banner.jpg" alt="banner" />
+      <img className="homeimage" src="./images/banner.jpg" alt="banner" />;
       {loading ? (
         <LoadingBox></LoadingBox>
       ) : error ? (
