@@ -1,7 +1,6 @@
 const data = {
   products: [
     {
-      _id: "1",
       name: "And Then There Were None",
       image: "/images/p1.jpg",
       price: 7.99,
@@ -10,7 +9,6 @@ const data = {
       description: "by Agatha Christie",
     },
     {
-      _id: "2",
       name: "Alice's Adventures in Wonderland",
       image: "/images/p2.jpg",
       price: 10.0,
@@ -19,7 +17,6 @@ const data = {
       description: "by Lewis Carroll",
     },
     {
-      _id: "3",
       name: "Harry Potter and the Goblet of Fire",
       image: "/images/p3.jpg",
       price: 11.69,
@@ -28,7 +25,6 @@ const data = {
       description: "by J.K. Rowling, Mary GrandPre (Illustrator)",
     },
     {
-      _id: "4",
       name: "Anne of Green Gables",
       image: "/images/p4.jpg",
       price: 7.99,
@@ -37,7 +33,6 @@ const data = {
       description: "by L.M. Montgomery",
     },
     {
-      _id: "5",
       name: "Bridge to Terabithia",
       image: "/images/p5.jpg",
       price: 7.99,
@@ -46,7 +41,6 @@ const data = {
       description: "by Katherine Paterson, Donna Diamond (Illustrator)",
     },
     {
-      _id: "6",
       name: "Harry Potter and the Sorcerer's Stone",
       image: "/images/p6.jpg",
       price: 8.99,
